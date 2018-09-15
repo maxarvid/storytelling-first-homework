@@ -30,11 +30,8 @@ import * as d3 from 'd3'
 
   var colorScale = d3.scaleOrdinal().range(['#e66101', '#fdb863', '#b2abd2'])
 
-  d3.csv('./eating-data.csv')
+  d3.csv(require('./eating-data.csv'))
     .then(ready)
-    .catch(function(err) {
-      console.log('Failed with', err)
-    })
 
   function ready(datapoints) {
     // Add and style your marks here

@@ -32,11 +32,8 @@ import * as d3 from 'd3'
     .domain([0, 10])
     .range([height, 0])
 
-  d3.csv('./eating-data.csv')
+  d3.csv(require('./eating-data.csv'))
     .then(ready)
-    .catch(function(err) {
-      console.log('Failed with', err)
-    })
 
   function ready(datapoints) {
     // Add and style your marks here

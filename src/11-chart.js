@@ -32,11 +32,8 @@ import * as d3 from 'd3'
     .domain(['dog', 'cow', 'cat'])
     .range([0.25 * height, 0.75 * height])
 
-  d3.csv('./eating-data.csv')
+  d3.csv(require('./eating-data.csv'))
     .then(ready)
-    .catch(function(err) {
-      console.log('Failed with', err)
-    })
 
   function ready(datapoints) {
     // Add and style your marks here

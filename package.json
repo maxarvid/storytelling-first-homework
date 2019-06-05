@@ -23,7 +23,9 @@
   },
   "description": "",
   "dependencies": {
+    "acorn": "^6.1.1",
     "d3": "^5.9.1",
-    "parcel": "^1.12.2"
+    "parcel": "^1.12.2",
+    "yaml": "^1.6.0"
   }
 }

@@ -11,22 +11,22 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "eslint": "^5.15.1",
+    "eslint": "^5.16.0",
     "eslint-config-prettier": "^3.6.0",
     "eslint-config-standard": "^12.0.0",
-    "eslint-plugin-import": "^2.16.0",
+    "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-node": "^7.0.1",
     "eslint-plugin-prettier": "^2.7.0",
-    "eslint-plugin-promise": "^4.0.1",
-    "eslint-plugin-standard": "^4.0.0",
-    "prettier": "^1.16.4"
+    "eslint-plugin-promise": "^4.2.1",
+    "eslint-plugin-standard": "^4.0.1",
+    "prettier": "^1.18.2"
   },
   "description": "",
   "dependencies": {
-    "acorn": "^6.1.1",
-    "d3": "^5.9.1",
-    "lodash": "^4.17.14",
-    "parcel": "^1.12.2",
+    "acorn": "^6.3.0",
+    "d3": "^5.11.0",
+    "lodash": "^4.17.15",
+    "parcel": "^1.12.3",
     "yaml": "^1.6.0"
   }
 }

@@ -23,9 +23,9 @@
   },
   "description": "",
   "dependencies": {
-    "acorn": "^6.3.0",
+    "acorn": "^6.4.1",
     "d3": "^5.11.0",
-    "lodash": "^4.17.15",
+    "lodash": "^4.17.19",
     "parcel": "^1.12.4",
     "yaml": "^1.6.0"
   }
